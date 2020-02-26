@@ -1,0 +1,16 @@
+{
+  "definitions": {
+    "Contract": {
+      "properties": {
+        "purchaseOrderStatus": {
+          "title": "Purchase Order Status",
+          "description": "Purchase Order Status",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

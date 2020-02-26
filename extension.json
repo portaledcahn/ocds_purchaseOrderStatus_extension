@@ -1,0 +1,17 @@
+{
+  "name": {
+    "en": "Purchase Order Status"
+  },
+  "description": {
+    "en": "In public purchases by Electronic catalog, purchase order (PO) type contracts with the selected products are generated, these purchase orders follow a workflow that involves the states of: \"Sent for Approval\", \"Sent for review\", \"Approved\", \"Elaboration\", \"Printed\", \"Canceled\" representing the stage of the (PO) in the information system.\n\nThis field is important to know the valid contracts for data analysis, they should only be considered when the purchase orders are in \"printed\" status."
+  },
+  "documentationUrl": {
+    "en": "https://github.com/portaledcahn/ocds_purchaseOrderStatus_extension/blob/master/README.md"
+  },
+  "compatibility": [
+    "1.1"
+  ],
+  "schemas": [
+    "release-schema.json"
+  ]
+}

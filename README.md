@@ -1,7 +1,5 @@
 # Purchase Order Status
 
-In public purchases by Electronic catalog, purchase order (PO) type contracts with the selected products are generated, these purchase orders follow a workflow that involves the states of: "Sent for Approval", "Sent for review", "Approved", "Elaboration", "Printed", "Canceled" representing the stage of the (PO) in the information system.
+In Honduras, the purchase orders made in a Framework Agreement setting go through different states in an approval process. 
 
-This field is important to know the valid contracts for data analysis, they should only be considered when the purchase orders are in "printed" status.
-
-This extension adds field `contracts/n/purchaseOrderStatus` to explicitly indicate the purchase order status and satisfy such use cases.
+This extension adds the field "contracts/purchaseOrderStatus" to indicate the current status of a purchase order, represented as a contract in a OCDS release. Read the [codelist file](codelists/purchaseOrderStatus.csv) for a list of the status values available.
